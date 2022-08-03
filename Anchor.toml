@@ -1,0 +1,15 @@
+[features]
+seeds = false
+skip-lint = false
+[programs.devnet]
+mytestproject = "Fud3P7NBE4WX8pmMAGaneZGtkRiAgf9o4QCmMFxrUhce"
+
+[registry]
+url = "https://api.apr.dev"
+
+[provider]
+cluster = "devnet"
+wallet = "/home/aashar/sol-projects/nftproject/wallets/owner.json"
+
+[scripts]
+test = "node tests/mytestproject.js"
